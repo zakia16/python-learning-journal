@@ -2,6 +2,7 @@
 Shallow Copy Example - Normal List
 
 This script demonstrates the difference between shallow and normal copies using a normal (non-nested) list.
+#https://www.youtube.com/watch?v=oxH2JGEVzQY
 """
 
 import copy

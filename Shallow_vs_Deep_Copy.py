@@ -19,7 +19,7 @@ def shallow_copy_example():
     a = [[1, 2, 3], [4, 5, 6]]
 
     # Creating a shallow copy of the nested list 'a'
-    b = a.copy()
+    b = a.copy()   # or b = a    -> assignment statements create references to the same object rather than copying it
 
     # Modifying an element in the shallow-copied list
     b[0][0] = 99
